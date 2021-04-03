@@ -212,3 +212,6 @@ body{
   cursor: pointer;
   transition: all 0.3s ease;
 }
+.play-area section span .o{
+  color: black;
+}
