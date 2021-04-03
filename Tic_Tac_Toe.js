@@ -33,7 +33,7 @@ let runBot = true;
 
 // user click function
 function clickedBox(element){
-    if(players.classList.contains("player")){
+    if(players.classList.contains("player")){ //clicked playr 0
         playerSign = "O"; 
         element.innerHTML = `<i class="${playerOIcon}"></i>`; 
         players.classList.add("active"); 
@@ -83,7 +83,7 @@ function bot(){
 }
 
 function getIdVal(classname){
-    return document.querySelector(".box" + classname).id; 
+    return document.querySelector(".box" + classname).id; //get player sign id
 }
 function checkIdSign(val1, val2, val3, sign){ //checking all id value is equal to sign (X or O) or not if yes then return true
     if(getIdVal(val1) == sign && getIdVal(val2) == sign && getIdVal(val3) == sign){
