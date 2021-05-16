@@ -12,6 +12,10 @@
 body{
   background:#0A496F;
 }
+.p1 img{
+  height: 10vw;
+  
+}
 .select-box, .play-board, .result-box{
   position: absolute;
   top: 50%;
@@ -25,6 +29,7 @@ body{
   border-radius: 5px;
   max-width: 400px;
   width: 100%;
+  box-shadow: 14px 13px 19px black;
 }
 .select-box.hide{
   opacity: 0;
@@ -38,9 +43,10 @@ body{
   border-bottom: 1px solid lightgrey;
 }
 .select-box .title{
-  font-size: 22px;
+  font-size: 31px;
   font-weight: 500;
-  margin: 20px 0;
+  margin: 30px 0px;
+  text-align: -webkit-center;
 }
 .select-box .options{
   display: flex;
